@@ -14,12 +14,14 @@ import { RegisterComponent } from './login/register.component';
 
 //temporal
 import { FormsModule } from '@angular/forms';
+import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    // GraficoDonaComponent
         
   ],
   imports: [
